@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+
+}
+
+li{
+  list-style: none;
+}
+
+.fl{
+  float: left;
+}
+
+.fr{
+  float: right;
+}
+
+.over{
+  overflow: hidden;
+}
+
+.clear{
+  clear: both;
+}
+
+.clear::before{
+  clear: both;
+}
+
+.clear::after{
+  clear: both;
+}
+
+img{
+  width: 100%;
+}
+
+a{
+  text-decoration: none;
+  color : inherit;
+}
